@@ -2,12 +2,13 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md)
 
-Two complementary Codex skills for clearly adult female portrait prompts: a focused prompt generator and a broader portrait direction workflow. Includes READMEs and practical comparison/usage manuals in English, Simplified Chinese, Traditional Chinese, and Japanese.
+Three complementary Codex skills for clearly adult female portrait prompts. Includes READMEs and practical comparison/usage manuals in English, Simplified Chinese, Traditional Chinese, and Japanese.
 
 | Skill | Best fit | Default result |
 | --- | --- | --- |
 | [female-portrait-prompt-generator](skills/female-portrait-prompt-generator/SKILL.md) | Cool, restrained, low-saturation indoor portraits; explicit parameter locking | A complete text prompt, lock review, additions, visual hooks, and negatives |
 | [female-portrait-director](skills/female-portrait-director/SKILL.md) | Multiple styles, coherent scene direction, optimization, diagnosis, and authorized reference images | Detailed prompt output; image generation only when explicitly requested |
+| [asian-beauty-photo-prompt-director](skills/asian-beauty-photo-prompt-director/SKILL.md) | Asian-aesthetic portraits, eight visual dimensions, platform-specific prompts, and batches | Copy-ready text prompts, with `/batch` variants when requested |
 
 ## Quick start
 
@@ -49,7 +50,7 @@ Generator is text-only. Director supplies 14 implemented style routes, 7 tempera
 
 ## Source and licensing
 
-The supplied skill directories are unmodified snapshots dated 2026-10-25. Director identifies itself as V1.4.1 and retains 李岳's MIT license and notice. Generator includes no standalone license; this repository does not add one. Public visibility does not make every component open source. See [licensing and attribution](LICENSES.md) and [source hashes](SOURCE_MANIFEST.json).
+The original two skill directories are unmodified snapshots dated 2026-10-25. The Asian portrait skill is a separate 2026-11-03 snapshot with local source paths removed. Director identifies itself as V1.4.1 and retains 李岳's MIT license and notice. See [licensing and attribution](LICENSES.md) and [source hashes](SOURCE_MANIFEST.json).
 
 ## Validation and contributions
 

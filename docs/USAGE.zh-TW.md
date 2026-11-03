@@ -294,6 +294,10 @@ $female-portrait-director
 
 參數鎖定是流程義務，不是像素、跨圖身份或服裝完全一致的保證。集合未做生圖 A/B 測試。更長規則和模組可能增加讀取與輸出成本，但沒有進行速度基準測試。
 
+### 亞洲人像與批量提示詞
+
+新增的[亞洲人像導演](../skills/asian-beauty-photo-prompt-director/SKILL.md)使用八維視覺框架，可用 `/batch` 產生多條文字提示詞。例如：`$asian-beauty-photo-prompt-director /batch 4 /gpt 咖啡館人像`。批量流程固定指定條件並變化部分視覺維度；不能保證人物身份一致或畫面品質。此版本為 2026-11-03 快照，已移除本機來源路徑。
+
 ## 9. 來源、範圍與驗證
 
 權威規則見 [Generator 入口](../skills/female-portrait-prompt-generator/SKILL.md)、[規格](../skills/female-portrait-prompt-generator/SPEC.md)、[Director 入口](../skills/female-portrait-director/SKILL.md)、[核心流程](../skills/female-portrait-director/skill/skill.md)、[公開使用說明](../skills/female-portrait-director/skill/public_instructions.md)及[參數表](../skills/female-portrait-director/skill/parameter_schema.md)。

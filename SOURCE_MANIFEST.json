@@ -1,6 +1,6 @@
 {
   "snapshot_date": "2026-10-25",
-  "description": "Unmodified local skill snapshots; hashes verify bytes, not image-generation quality.",
+  "description": "Original skill snapshots dated 2026-10-25 and an Asian portrait skill snapshot dated 2026-11-03; hashes verify bytes, not image-generation quality.",
   "director_version": "FEMALE-PORTRAIT-DIRECTOR-V1.4.1",
   "generator_version": "No explicit version in supplied entry point",
   "files": {
@@ -76,6 +76,15 @@
     "skills/female-portrait-prompt-generator/references/examples.md": "97fd0b5496ec5b167b36bb0310aa50fcdcfdabb0050c3ef349a03c012a3e62df",
     "skills/female-portrait-prompt-generator/SKILL.md": "93c0a04d5b8e549ec3c4c88a9a48719170d7cd36306910b5996301823576b255",
     "skills/female-portrait-prompt-generator/SOURCES.md": "c77423ee0529c38c77169d8c6e8c66eae1f7c7b5640dc9edbe89ecda5ac9ce72",
-    "skills/female-portrait-prompt-generator/SPEC.md": "30e6e1ce29733af9211a86a9d0cde0afc69fb941460799e0be5d1ff11a7f49c2"
+    "skills/female-portrait-prompt-generator/SPEC.md": "30e6e1ce29733af9211a86a9d0cde0afc69fb941460799e0be5d1ff11a7f49c2",
+    "skills/asian-beauty-photo-prompt-director/references/examples.md": "0baf9c9d97c8e3baf3b7f735eceab15913cbe9672a3bb3b31a52b2ecfcfc670a",
+    "skills/asian-beauty-photo-prompt-director/references/fix-modes.md": "74cbe0b364537e8821fbc37b314778b4026517e9a0edac39112b45dc70eeaf3d",
+    "skills/asian-beauty-photo-prompt-director/references/platform-formats.md": "3863ec5443afced3b6940877f545e375efbb3a0a7e46a9713597161d601cc5d2",
+    "skills/asian-beauty-photo-prompt-director/references/risk-rewrites.md": "f00ee4e362f9d85bf36845c130a1a244788f2c82c0e73ce4ba5072af74a2f3ee",
+    "skills/asian-beauty-photo-prompt-director/references/style-expansions.md": "41433074be99d99b92df626adbbdc210059f075a726af7e497ed43702baa197d",
+    "skills/asian-beauty-photo-prompt-director/references/visual-framework.md": "fb10662dd71da5f82d8c34668c750fa02063e40234dc4c8ac93ff567bca47a66",
+    "skills/asian-beauty-photo-prompt-director/SKILL.md": "4ae0cbdf31c372ea5585154ded2ca47e1df819963334ef408560ecf50566f985",
+    "skills/asian-beauty-photo-prompt-director/SOURCES.md": "b3c3d66172655de0af3c2877ab72e4ae0e182971fc22df59c3c1dda59cebc5d9",
+    "skills/asian-beauty-photo-prompt-director/SPEC.md": "b67c1c8d3599ec4eb670b0d41b0af8838116fb10fe20c0925fedc7a3bbae0012"
   }
 }

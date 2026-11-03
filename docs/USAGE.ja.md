@@ -294,6 +294,10 @@ $female-portrait-director
 
 パラメータの固定は処理手順上の要件であり、ピクセル、画像間の本人性、服装の完全一致を保証しません。本コレクションでは画像品質の A/B テストや速度測定を行っていません。モジュールや説明の増加は読み取りと出力の負担を増やす可能性があります。
 
+### アジア風ポートレートと一括プロンプト
+
+追加された[アジア向けディレクター](../skills/asian-beauty-photo-prompt-director/SKILL.md)は8つの視覚要素を使い、`/batch` で複数のテキストプロンプトを作成できます。例：`$asian-beauty-photo-prompt-director /batch 4 /gpt カフェのポートレート`。指定条件を維持しながら一部の要素を変えますが、同一人物の再現や画質は保証されません。2026-11-03 時点のスナップショットからローカルパスを除去しています。
+
 ## 9. 出典・対応範囲・検証
 
 正式な規則は [Generator の入口](../skills/female-portrait-prompt-generator/SKILL.md)、[仕様](../skills/female-portrait-prompt-generator/SPEC.md)、[Director の入口](../skills/female-portrait-director/SKILL.md)、[中心手順](../skills/female-portrait-director/skill/skill.md)、[公開手順](../skills/female-portrait-director/skill/public_instructions.md)、[パラメータ表](../skills/female-portrait-director/skill/parameter_schema.md)を参照してください。

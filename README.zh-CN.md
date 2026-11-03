@@ -2,12 +2,13 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md)
 
-两个互补的 Codex 成年女性人像技能：一个专注提示词生成，一个提供更完整的视觉导演流程。本仓库提供简体中文、繁体中文、日文与英文 README 和详细比较使用手册。
+三个互补的 Codex 成年女性人像技能。本仓库提供简体中文、繁体中文、日文与英文 README 和详细比较使用手册。
 
 | 技能 | 适合用途 | 默认结果 |
 | --- | --- | --- |
 | [female-portrait-prompt-generator](skills/female-portrait-prompt-generator/SKILL.md) | 清冷、克制、低饱和室内写真，明确锁定参数 | 完整文字提示词、参数复核、补充内容、吸睛点与负面词 |
 | [female-portrait-director](skills/female-portrait-director/SKILL.md) | 多风格创作、完整场景设计、优化、诊断与授权参考图 | 详细提示词；只有明确要求时才进入生图流程 |
+| [asian-beauty-photo-prompt-director](skills/asian-beauty-photo-prompt-director/SKILL.md) | 亚洲审美、八维视觉框架、多平台及批量写真提示词 | 可复制的提示词；按需使用 `/batch` 批量生成 |
 
 ## 快速开始
 
@@ -49,7 +50,7 @@ Generator 只输出文字。Director 包含 14 条已实现风格路线、7 个�
 
 ## 来源与授权
 
-两个技能目录为 2026-10-25 的原样快照。Director 标注版本 V1.4.1，保留李岳的 MIT 授权及声明。Generator 未附独立授权文件，本仓库不替它新增授权。公开仓库不意味着所有组件均已开源。详见[授权与署名](LICENSES.md)及[源文件哈希](SOURCE_MANIFEST.json)。
+原有两个技能为 2026-10-25 的原样快照。亚洲人像技能为另行加入的 2026-11-03 快照，已移除本机来源路径。Director 保留李岳的 MIT 授权及声明。详见[授权与署名](LICENSES.md)及[源文件哈希](SOURCE_MANIFEST.json)。
 
 ## 验证与贡献
 

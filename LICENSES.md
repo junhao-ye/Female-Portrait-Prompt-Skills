@@ -1,6 +1,11 @@
 # Licensing and attribution
 
-This is a collection of two independently supplied skills and newly written collection documentation. There is no blanket license applied to the whole repository.
+This is a collection of independently supplied skills and newly written collection documentation. There is no blanket license applied to the whole repository.
+
+## Asian Beauty Photo Prompt Director
+
+- Added from the requester's skill, with local source paths removed from its source notes.
+- No standalone license grant was supplied for this component. Consult the rights holder before reuse or redistribution requiring a license grant.
 
 ## Female Portrait Director
 
@@ -21,4 +26,4 @@ This is a collection of two independently supplied skills and newly written coll
 
 The multilingual collection READMEs, usage guides, source manifest, and validation script were prepared for this repository. No separate license grant is declared for these additions in this initial import. Component notices continue to govern their respective content.
 
-The original skills are preserved as snapshots. Editorial observations about inconsistencies are documented in the usage guides rather than silently changing the source rules.
+The original two skills are preserved as snapshots. Editorial observations about inconsistencies are documented in the usage guides rather than silently changing their source rules.

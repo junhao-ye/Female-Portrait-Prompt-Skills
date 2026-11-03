@@ -8,6 +8,7 @@
 | --- | --- | --- |
 | [female-portrait-prompt-generator](skills/female-portrait-prompt-generator/SKILL.md) | クールで控えめな低彩度の室内写真、指定パラメータの保持 | 完成プロンプト、パラメータ確認、補完項目、見どころ、ネガティブ指定 |
 | [female-portrait-director](skills/female-portrait-director/SKILL.md) | 多様なスタイル、場面演出、最適化、診断、許可された参照画像 | 詳細なプロンプト。画像生成は明示的に依頼した場合のみ |
+| [asian-beauty-photo-prompt-director](skills/asian-beauty-photo-prompt-director/SKILL.md) | アジア美学、8つの視覚要素、各種プラットフォームと一括生成 | コピー可能なプロンプト。`/batch` で複数案を作成 |
 
 ## クイックスタート
 
@@ -49,7 +50,7 @@ Generator はテキスト専用です。Director には実装済みの 14 スタ
 
 ## 出典とライセンス
 
-スキルは 2026-10-25 時点の無変更スナップショットです。Director は V1.4.1 を名乗り、李岳の MIT ライセンスと NOTICE を保持しています。Generator には独立したライセンスがなく、本リポジトリは追加の許諾を与えません。公開リポジトリであることは、すべての構成要素がオープンソースであることを意味しません。[権利と帰属](LICENSES.md)、[ソースハッシュ](SOURCE_MANIFEST.json)を参照してください。
+既存の2スキルは 2026-10-25 時点の無変更スナップショットです。アジア向けスキルは 2026-11-03 の別スナップショットで、ローカルパスを除去しています。Director は李岳の MIT ライセンスと NOTICE を保持しています。[権利と帰属](LICENSES.md)、[ソースハッシュ](SOURCE_MANIFEST.json)を参照してください。
 
 ## 検証と貢献
 

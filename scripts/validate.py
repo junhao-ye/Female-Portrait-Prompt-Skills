@@ -15,7 +15,7 @@ LANGUAGES = {
     'zh-TW': 'README.zh-TW.md',
     'ja': 'README.ja.md',
 }
-SKILLS = ('female-portrait-prompt-generator', 'female-portrait-director')
+SKILLS = ('female-portrait-prompt-generator', 'female-portrait-director', 'asian-beauty-photo-prompt-director')
 errors = []
 checks = 0
 
