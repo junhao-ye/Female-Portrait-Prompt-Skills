@@ -294,6 +294,10 @@ Known source-document issues are preserved, not silently repaired:
 
 Both skills depend on the model interpreting text. Parameter locking is a workflow obligation, not a guarantee of exact pixels, consistent identity across images, or perfect clothing. No image-quality A/B test was performed for this collection. Added instructions and modularity can increase reading/output cost; no timing benchmark is claimed.
 
+### Asian portrait and batch prompts
+
+The separately added [Asian portrait director](../skills/asian-beauty-photo-prompt-director/SKILL.md) uses eight visual dimensions and supports `/batch` for multiple text prompts. Example: `$asian-beauty-photo-prompt-director /batch 4 /gpt cafe portrait`. The batch holds specified details fixed and varies selected visual dimensions; identity consistency and image quality are not guaranteed. This addition is a 2026-11-03 snapshot with local source paths removed.
+
 ## 9. Source, scope, and verification
 
 Read the [Generator entry point](../skills/female-portrait-prompt-generator/SKILL.md), its [specification](../skills/female-portrait-prompt-generator/SPEC.md), the [Director entry point](../skills/female-portrait-director/SKILL.md), [canonical workflow](../skills/female-portrait-director/skill/skill.md), [public instructions](../skills/female-portrait-director/skill/public_instructions.md), and [parameter schema](../skills/female-portrait-director/skill/parameter_schema.md) for authoritative rules.
